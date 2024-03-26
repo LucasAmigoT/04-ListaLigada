@@ -145,12 +145,30 @@ void inserirElemento()
 
 void excluirElemento()
 {
-	
+	int excluir;
+	cout << "Digite o valor que deseja excluir:";
+	cin >> excluir;
+	NO* buscaExcluir = posicaoElemento(excluir);
+	while (aux != buscaExcluir) {
+		if 
+	}
+
 }
 
 void buscarElemento()
 {
-	
+	int buscar;
+		cout << "Digite o numero que deseja buscar: ";
+		cin >> buscar;
+		NO* valorBusca = posicaoElemento(buscar);
+		if (valorBusca != NULL)
+		{
+			cout << valorBusca->valor << endl; 
+		}
+		else {
+			cout << "o valor digitado nao existe \n";
+		}
+		
 }
 
 
